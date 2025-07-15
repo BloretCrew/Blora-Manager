@@ -1,5 +1,5 @@
 import * as fs from "fs-extra";
-import { GlobalVariable } from "mcsmanager-common";
+import { GlobalVariable } from "Blora-Manager-common";
 import { logger } from "./service/log";
 import storage from "./common/system_storage";
 

@@ -1,14 +1,14 @@
 {
-  "name": "mcsmanager-common",
+  "name": "Blora-Manager-common",
   "version": "1.1.0",
-  "description": "MCSManager Common layer",
+  "description": "Blora-Manager Common layer",
   "main": "dist/index.js",
-  "homepage": "https://mcsmanager.com/",
+  "homepage": "https://Blora-Manager.com/",
   "author": "https://github.com/unitwk",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MCSManager/MCSManager"
+    "url": "https://github.com/BloretCrew/Blora-Manager"
   },
   "scripts": {
     "build": "tsc --project tsconfig.json",

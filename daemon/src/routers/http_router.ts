@@ -14,7 +14,7 @@ const router = new Router();
 
 // Define the HTTP home page display route
 router.all("/", async (ctx) => {
-  ctx.body = "[MCSManager Daemon] Status: OK | reference: https://mcsmanager.com/";
+  ctx.body = "[Blora-Manager Daemon] Status: OK | reference: https://Blora-Manager.com/";
   ctx.status = 200;
 });
 

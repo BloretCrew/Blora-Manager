@@ -10,7 +10,7 @@ import { v4 } from "uuid";
 import { $t } from "../i18n";
 import { ROLE } from "../entity/user";
 import { getInstancesByUuid } from "../service/instance_service";
-import { toBoolean } from "mcsmanager-common";
+import { toBoolean } from "Blora-Manager-common";
 
 const router = new Router({ prefix: "/auth" });
 

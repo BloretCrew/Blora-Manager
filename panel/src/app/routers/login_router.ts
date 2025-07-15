@@ -8,7 +8,7 @@ import userSystem, { TwoFactorError } from "../service/user_service";
 import { logger } from "../service/log";
 import { $t } from "../i18n";
 import axios from "axios";
-import { GlobalVariable } from "mcsmanager-common";
+import { GlobalVariable } from "Blora-Manager-common";
 import { ROLE } from "../entity/user";
 import SystemConfig from "../entity/setting";
 

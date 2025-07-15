@@ -161,15 +161,15 @@ const openBuyInstanceDialog = async () => {
             </form>
 
             <div class="mt-24 flex-between align-center">
-              <div v-if="!appConfig.settings.businessMode" class="mcsmanager-link">
+              <div v-if="!appConfig.settings.businessMode" class="Blora-Manager-link">
                 <div
                   v-if="pageInfoResult?.loginInfo"
                   class="global-markdown-html"
                   v-html="markdownToHTML(pageInfoResult?.loginInfo || '')"
                 ></div>
                 Powered by
-                <a href="https://mcsmanager.com" target="_blank" rel="noopener noreferrer">
-                  MCSManager
+                <a href="https://Blora-Manager.com" target="_blank" rel="noopener noreferrer">
+                  Blora-Manager
                 </a>
               </div>
               <div v-else></div>
@@ -246,7 +246,7 @@ const openBuyInstanceDialog = async () => {
   }
 }
 
-.mcsmanager-link {
+.Blora-Manager-link {
   font-size: var(--font-body);
   text-align: right;
   color: var(--color-gray-7);

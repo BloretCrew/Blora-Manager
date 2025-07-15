@@ -1,4 +1,4 @@
-import { systemInfo } from "mcsmanager-common";
+import { systemInfo } from "Blora-Manager-common";
 
 // Visual data subsystem: responsible for collecting system data and event data, and providing some methods to display them
 class LineQueue<T> {

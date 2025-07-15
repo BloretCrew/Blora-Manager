@@ -1,5 +1,5 @@
 {
-  "name": "mcsmanager-workspace",
+  "name": "Blora-Manager-workspace",
   "version": "1.0.0",
   "scripts": {
     "i18n": "i18next-scanner --config i18-scanner.config.js && npm run sort-lang-keys",

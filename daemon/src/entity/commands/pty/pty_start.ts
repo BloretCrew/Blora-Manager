@@ -9,7 +9,7 @@ import EventEmitter from "events";
 import { IInstanceProcess } from "../../instance/interface";
 import { ChildProcess, ChildProcessWithoutNullStreams, exec, spawn } from "child_process";
 import { commandStringToArray } from "../base/command_parser";
-import { killProcess } from "mcsmanager-common";
+import { killProcess } from "Blora-Manager-common";
 import FunctionDispatcher from "../dispatcher";
 import { PTY_PATH } from "../../../const";
 import { Writable } from "stream";
@@ -187,11 +187,11 @@ export default class PtyStartCommand extends AbsStartCommand {
       return instance.failure(new StartupError($t("TXT_CODE_pty_start.cmdEmpty")));
 
     const pipeId = v4();
-    const pipeLinuxDir = "/tmp/mcsmanager-instance-pipe";
+    const pipeLinuxDir = "/tmp/Blora-Manager-instance-pipe";
     if (!fs.existsSync(pipeLinuxDir)) fs.mkdirsSync(pipeLinuxDir);
     let pipeName = `${pipeLinuxDir}/pipe-${pipeId}`;
     if (os.platform() === "win32") {
-      pipeName = `\\\\.\\pipe\\mcsmanager-${pipeId}`;
+      pipeName = `\\\\.\\pipe\\Blora-Manager-${pipeId}`;
     }
 
     const ptyParameter = [

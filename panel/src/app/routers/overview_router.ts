@@ -4,9 +4,9 @@ import RemoteServiceSubsystem from "../service/remote_service";
 import VisualDataSubsystem from "../service/visual_data";
 import RemoteRequest from "../service/remote_command";
 import os from "os";
-import { systemInfo } from "mcsmanager-common";
+import { systemInfo } from "Blora-Manager-common";
 import { getVersion, specifiedDaemonVersion } from "../version";
-import { GlobalVariable } from "mcsmanager-common";
+import { GlobalVariable } from "Blora-Manager-common";
 import { ROLE } from "../entity/user";
 import {
   LOGIN_FAILED_KEY,

@@ -1,8 +1,8 @@
 ## Security Vulnerability Reporting
 
-If you discover a security vulnerability in MCSManager and believe it may harm other users, and you are willing to help us fix it but do not wish to disclose the details publicly.
+If you discover a security vulnerability in Blora-Manager and believe it may harm other users, and you are willing to help us fix it but do not wish to disclose the details publicly.
 
-**Please send detailed information to our email: support@mcsmanager.com.**
+**Please send detailed information to our email: support@Blora-Manager.com.**
 
 The email subject format should be: `[Security Vulnerability] <Title>`
 

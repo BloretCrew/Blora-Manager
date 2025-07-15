@@ -1,6 +1,6 @@
 import Instance from "../../instance/instance";
 import InstanceCommand from "../base/command";
-import { MCServerStatus, toNumber } from "mcsmanager-common";
+import { MCServerStatus, toNumber } from "Blora-Manager-common";
 
 export default class PingJavaMinecraftServerCommand extends InstanceCommand {
   constructor() {

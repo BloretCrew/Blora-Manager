@@ -18,7 +18,7 @@ import { fileLogger, logger } from "./app/service/log";
 import { middleware as protocolMiddleware } from "./app/middleware/protocol";
 import { mountRouters } from "./app/index";
 import versionAdapter from "./app/service/version_adapter";
-import { removeTrail } from "mcsmanager-common";
+import { removeTrail } from "Blora-Manager-common";
 
 function hasParams(name: string) {
   return process.argv.includes(name);
@@ -89,7 +89,7 @@ _  /  / / / /___  ____/ /_  /  / / / /_/ /_  / / / /_/ /_  /_/ //  __/  /
 /_/  /_/  \\____/  /____/ /_/  /_/  \\__,_/ /_/ /_/\\__,_/ _\\__, / \\___//_/     
                                                         /____/     
 
- + Copyright ${new Date().getFullYear()} MCSManager Dev <https://github.com/MCSManager>
+ + Copyright ${new Date().getFullYear()} Blora-Manager Dev <https://github.com/Blora-Manager>
  + Version ${VERSION}
 `);
 

@@ -1,5 +1,5 @@
 {
-  "name": "mcsmanager-ui",
+  "name": "Blora-Manager-ui",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite --host",

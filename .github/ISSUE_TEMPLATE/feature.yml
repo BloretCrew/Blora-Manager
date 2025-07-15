@@ -1,5 +1,5 @@
 name: Feature Request
-description: A new feature for MCSManager
+description: A new feature for Blora-Manager
 title: "[Feature] "
 labels: "Feature Request"
 body:
@@ -17,6 +17,6 @@ body:
     id: reason
     attributes:
       label: Reason
-      description: Please describe why you want to add the feature into MCSManager.
+      description: Please describe why you want to add the feature into Blora-Manager.
     validations:
       required: true

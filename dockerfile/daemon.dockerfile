@@ -21,16 +21,16 @@ RUN apt-get update && apt-get install -y curl &&\
     curl -fsSL https://deb.nodesource.com/setup_20.x | bash &&\
     apt-get update && apt-get install -y nodejs && apt-get clean
 
-WORKDIR /opt/mcsmanager/daemon
+WORKDIR /opt/Blora-Manager/daemon
 
-COPY --from=builder /src/production-code/daemon/ /opt/mcsmanager/daemon/
+COPY --from=builder /src/production-code/daemon/ /opt/Blora-Manager/daemon/
 
 RUN npm install --production
 
 EXPOSE 24444
 
-ENV MCSM_INSTANCES_BASE_PATH=/opt/mcsmanager/daemon/data/InstanceData
+ENV MCSM_INSTANCES_BASE_PATH=/opt/Blora-Manager/daemon/data/InstanceData
 
-VOLUME ["/opt/mcsmanager/daemon/data", "/opt/mcsmanager/daemon/logs"]
+VOLUME ["/opt/Blora-Manager/daemon/data", "/opt/Blora-Manager/daemon/logs"]
 
 CMD [ "node", "app.js", "--max-old-space-size=8192" ]

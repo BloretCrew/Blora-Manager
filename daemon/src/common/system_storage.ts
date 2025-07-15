@@ -1,2 +1,2 @@
-import { StorageSubsystem } from "mcsmanager-common";
+import { StorageSubsystem } from "Blora-Manager-common";
 export default new StorageSubsystem();

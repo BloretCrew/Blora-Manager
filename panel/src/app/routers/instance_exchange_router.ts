@@ -10,7 +10,7 @@ import {
   REDEEM_PLATFORM_ADDR,
   RequestAction
 } from "../service/exchange_service";
-import { toText } from "mcsmanager-common";
+import { toText } from "Blora-Manager-common";
 import { logger } from "../service/log";
 import Koa from "koa";
 import UserSSOService from "../service/user_sso_service";
@@ -107,7 +107,7 @@ router.post(
         timeout: 1000 * 30,
         headers: {
           "Content-Type": "application/json",
-          "X-MCSManager-Panel": "true"
+          "X-Blora-Manager-Panel": "true"
         }
       });
       logger.info("Request redeem platform response: %j", JSON.stringify(res.data));

@@ -33,7 +33,7 @@ export async function middleware(
       "Content-Type, Content-Length, Authorization, Accept, X-Requested-With"
     );
   }
-  ctx.response.set("X-Powered-By", "MCSManager");
+  ctx.response.set("X-Powered-By", "Blora-Manager");
   ctx.response.set("X-Version", getVersion());
 
   // Serialize and display when sending Error class

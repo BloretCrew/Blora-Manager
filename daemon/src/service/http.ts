@@ -3,7 +3,7 @@ import koaBody from "koa-body-patch";
 import koaRouter from "../routers/http_router";
 import logger from "./log";
 import { globalConfiguration } from "../entity/config";
-import { removeTrail } from "mcsmanager-common";
+import { removeTrail } from "Blora-Manager-common";
 
 export function initKoa() {
   const koaApp = new Koa();
@@ -31,7 +31,7 @@ export function initKoa() {
       "Content-Type, Cookie, Accept-Encoding, User-Agent, Host, Referer, " +
         "X-Requested-With, Accept, Accept-Language, Cache-Control, Connection"
     );
-    ctx.response.set("X-Power-by", "MCSManager");
+    ctx.response.set("X-Power-by", "Blora-Manager");
   });
 
   if (config.prefix != "") {

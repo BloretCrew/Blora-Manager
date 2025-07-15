@@ -1,18 +1,18 @@
 {
-  "name": "mcsmanager-panel",
+  "name": "Blora-Manager-panel",
   "version": "10.6.1",
   "daemonVersion": "4.6.2",
-  "description": "Provide MCSManager with the ability to connect and control all Daemons, and provide API services for the front end.",
+  "description": "Provide Blora-Manager with the ability to connect and control all Daemons, and provide API services for the front end.",
   "scripts": {
     "dev": "npm run build && node --enable-source-maps production/app.js",
     "build": "webpack --config webpack.config.js"
   },
-  "homepage": "https://mcsmanager.com/",
+  "homepage": "https://Blora-Manager.com/",
   "author": "https://github.com/unitwk",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MCSManager/MCSManager"
+    "url": "https://github.com/BloretCrew/Blora-Manager"
   },
   "_moduleAliases": {
     "@languages": "../languages"
@@ -32,7 +32,7 @@
     "koa-session": "^6.2.0",
     "koa-static": "^5.0.0",
     "log4js": "^6.4.0",
-    "mcsmanager-common": "1.1.0",
+    "Blora-Manager-common": "1.1.0",
     "md5": "^2.3.0",
     "nanoid": "^3.3.8",
     "node-schedule": "^2.0.0",

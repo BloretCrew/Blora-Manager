@@ -11,7 +11,7 @@ import { PresetCommandManager } from "./preset";
 import FunctionDispatcher, { IPresetCommand } from "../commands/dispatcher";
 import { IInstanceProcess } from "./interface";
 import StartCommand from "../commands/start";
-import { configureEntityParams, toText } from "mcsmanager-common";
+import { configureEntityParams, toText } from "Blora-Manager-common";
 import { OpenFrp } from "../commands/task/openfrp";
 import logger from "../../service/log";
 import { t } from "i18next";
@@ -41,7 +41,7 @@ const TERM_RESET = "\x1B[0m";
 const IGNORE_TEXT = [
   "\n\n",
   TERM_TEXT_GOLD,
-  "[MCSMANAGER] ",
+  "[Blora-Manager] ",
   TERM_RESET,
   TERM_TEXT_YELLOW,
   t("TXT_CODE_c5ed896f"),

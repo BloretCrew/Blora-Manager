@@ -1,16 +1,16 @@
 # docker-compose.yml
 services:
   web:
-    image: githubyumao/mcsmanager-web:latest
+    image: githubyumao/Blora-Manager-web:latest
     ports:
       - "23333:23333"
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - <CHANGE_ME_TO_INSTALL_PATH>/web/data:/opt/mcsmanager/web/data
-      - <CHANGE_ME_TO_INSTALL_PATH>/web/logs:/opt/mcsmanager/web/logs
+      - <CHANGE_ME_TO_INSTALL_PATH>/web/data:/opt/Blora-Manager/web/data
+      - <CHANGE_ME_TO_INSTALL_PATH>/web/logs:/opt/Blora-Manager/web/logs
 
   daemon:
-    image: githubyumao/mcsmanager-daemon:latest
+    image: githubyumao/Blora-Manager-daemon:latest
     restart: unless-stopped
     network_mode: host # if you want run instance in daemon container
     # ports:
@@ -19,6 +19,6 @@ services:
       - MCSM_DOCKER_WORKSPACE_PATH=<CHANGE_ME_TO_INSTALL_PATH>/daemon/data/InstanceData
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - <CHANGE_ME_TO_INSTALL_PATH>/daemon/data:/opt/mcsmanager/daemon/data
-      - <CHANGE_ME_TO_INSTALL_PATH>/daemon/logs:/opt/mcsmanager/daemon/logs
+      - <CHANGE_ME_TO_INSTALL_PATH>/daemon/data:/opt/Blora-Manager/daemon/data
+      - <CHANGE_ME_TO_INSTALL_PATH>/daemon/logs:/opt/Blora-Manager/daemon/logs
       - /var/run/docker.sock:/var/run/docker.sock

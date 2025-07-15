@@ -1,20 +1,20 @@
 <div align="center">
-  <a href="https://mcsmanager.com/" target="_blank">
-    <img src="https://public-link.oss-cn-shenzhen.aliyuncs.com/mcsm_picture/logo.png" alt="MCSManagerLogo.png" width="510px" />    
+  <a href="https://Blora-Manager.com/" target="_blank">
+    <img src="https://public-link.oss-cn-shenzhen.aliyuncs.com/mcsm_picture/logo.png" alt="Blora-ManagerLogo.png" width="510px" />    
   </a>
 
   <br />
   
-  <h1 id="mcsmanager">
-    <a href="https://mcsmanager.com/" target="_blank">MCSManager Panel</a>
+  <h1 id="Blora-Manager">
+    <a href="https://Blora-Manager.com/" target="_blank">Blora-Manager Panel</a>
   </h1>
 
-[![--](https://img.shields.io/badge/Support-Windows/Linux-green.svg)](https://github.com/MCSManager)
+[![--](https://img.shields.io/badge/Support-Windows/Linux-green.svg)](https://github.com/Blora-Manager)
 [![Status](https://img.shields.io/badge/npm-v8.9.14-blue.svg)](https://www.npmjs.com/)
 [![Status](https://img.shields.io/badge/node-v16.20.2-blue.svg)](https://nodejs.org/en/download/)
-[![Status](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://github.com/MCSManager)
+[![Status](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://github.com/Blora-Manager)
 
-[官方网站](http://mcsmanager.com/) | [使用文档](https://docs.mcsmanager.com/#/zh-cn/) | [QQ 群](https://jq.qq.com/?_wv=1027&k=Pgl9ScGw) | [TG 群](https://t.me/MCSManager_dev) | [成为赞助者](https://afdian.net/a/mcsmanager)
+[官方网站](http://Blora-Manager.com/) | [使用文档](https://docs.Blora-Manager.com/#/zh-cn/) | [QQ 群](https://jq.qq.com/?_wv=1027&k=Pgl9ScGw) | [TG 群](https://t.me/Blora-Manager_dev) | [成为赞助者](https://afdian.net/a/Blora-Manager)
 
 [English](README.md) | [繁體中文](README_TW.md) | [Deutsch](README_DE.md) | [Português BR](README_PTBR.md) |
 [日本語](README_JP.md) | [Spanish](README_ES.md) | [Thai](README_TH.md)
@@ -25,7 +25,7 @@
 
 ## 这是什么？
 
-**MCSManager 面板**（简称：MCSM 面板 或MCSM）是一款免费，开源，分布式，轻量级，快速部署，支持 Minecraft 和 Steam 游戏服务器的 Web 管理面板。
+**Blora-Manager 面板**（简称：MCSM 面板 或MCSM）是一款免费，开源，分布式，轻量级，快速部署，支持 Minecraft 和 Steam 游戏服务器的 Web 管理面板。
 
 此软件在 `Minecraft` 和其他游戏社区内中已有一定的流行程度，它可以帮助你集中管理多个物理服务器，实现在任何主机上创建游戏服务器，并且提供安全可靠的多用户权限系统，可以很轻松的帮助你管理多个服务器，一直在为 `Minecraft`，`Terraria` 和 `Steam` 游戏服务器的管理员，运维人员和个人开发者提供健康的软件支持。
 
@@ -42,7 +42,7 @@
 3. 网页支持拖拽式的小卡片布局，打造自己喜欢的界面布局。
 4. 支持 `Docker Hub` 上的所有镜像，支持多用户，支持商业服务。
 5. 支持分布式，一个网页即可同时管理数台机器。
-6. 技术栈简单，仅需擅长 Typescript 即可完成整个 MCSManager 开发！
+6. 技术栈简单，仅需擅长 Typescript 即可完成整个 Blora-Manager 开发！
 7. 更多...
 
 <br />
@@ -61,7 +61,7 @@
 
 对于 Windows 系统，**已整合成直接运行版本，下载即可运行**:
 
-前往：[https://mcsmanager.com/](https://mcsmanager.com/)
+前往：[https://Blora-Manager.com/](https://Blora-Manager.com/)
 
 <br />
 
@@ -70,7 +70,7 @@
 **一行命令快速安装**
 
 ```bash
-sudo su -c "wget -qO- https://script.mcsmanager.com/setup_cn.sh | bash"
+sudo su -c "wget -qO- https://script.Blora-Manager.com/setup_cn.sh | bash"
 ```
 
 **安装后的使用方法**
@@ -81,7 +81,7 @@ systemctl stop mcsm-{web,daemon}  # 关闭面板
 ```
 
 - 脚本仅适用于 Ubuntu/Centos/Debian/Archlinux
-- 面板代码与运行环境自动安装在 `/opt/mcsmanager/` 目录下。
+- 面板代码与运行环境自动安装在 `/opt/Blora-Manager/` 目录下。
 
 <br />
 
@@ -101,12 +101,12 @@ ln -s /opt/node-v20.11.0-linux-x64/bin/node /usr/bin/node
 ln -s /opt/node-v20.11.0-linux-x64/bin/npm /usr/bin/npm
 
 # 准备好安装目录
-mkdir /opt/mcsmanager/
-cd /opt/mcsmanager/
+mkdir /opt/Blora-Manager/
+cd /opt/Blora-Manager/
 
-# 下载MCSManager
-wget https://github.com/MCSManager/MCSManager/releases/latest/download/mcsmanager_linux_release.tar.gz
-tar -zxf mcsmanager_linux_release.tar.gz
+# 下载Blora-Manager
+wget https://github.com/BloretCrew/Blora-Manager/releases/latest/download/Blora-Manager_linux_release.tar.gz
+tar -zxf Blora-Manager_linux_release.tar.gz
 
 # 安装依赖库
 ./install.sh
@@ -123,7 +123,7 @@ tar -zxf mcsmanager_linux_release.tar.gz
 # 一般来说，网络应用会自动扫描并连接到本地守护进程。
 ```
 
-这种安装方式不会自动注册面板到系统服务（Service），所以必须使用 `screen` 软件来管理，如果你希望由系统服务来接管 MCSManager，请参考文档。
+这种安装方式不会自动注册面板到系统服务（Service），所以必须使用 `screen` 软件来管理，如果你希望由系统服务来接管 Blora-Manager，请参考文档。
 
 <br />
 
@@ -133,7 +133,7 @@ tar -zxf mcsmanager_linux_release.tar.gz
 
 ### 必备插件
 
-我们使用 “VS Code” 开发 MCSManager，你可能需要安装这些插件：
+我们使用 “VS Code” 开发 Blora-Manager，你可能需要安装这些插件：
 
 - i18n 文案显示支持（I18n Ally）
 - 代码格式化（Prettier）
@@ -143,7 +143,7 @@ tar -zxf mcsmanager_linux_release.tar.gz
 ### MacOS
 
 ```bash
-git clone https://github.com/MCSManager/MCSManager.git
+git clone https://github.com/BloretCrew/Blora-Manager.git
 ./install-dependents.sh
 ./npm-dev-macos.sh
 ```
@@ -151,14 +151,14 @@ git clone https://github.com/MCSManager/MCSManager.git
 ### Windows
 
 ```bash
-git clone https://github.com/MCSManager/MCSManager.git
+git clone https://github.com/BloretCrew/Blora-Manager.git
 ./install-dependents.bat
 ./npm-dev-windows.bat
 ```
 
 ### 依赖文件
 
-接下来你还需要前往 [PTY](https://github.com/MCSManager/PTY) 和 [Zip-Tools](https://github.com/MCSManager/Zip-Tools) 两个项目下载对应的二进制文件，将他们存放到 `daemon/lib` 目录下，以确保 `仿真终端` 和 `文件解压缩` 的正常工作。
+接下来你还需要前往 [PTY](https://github.com/Blora-Manager/PTY) 和 [Zip-Tools](https://github.com/Blora-Manager/Zip-Tools) 两个项目下载对应的二进制文件，将他们存放到 `daemon/lib` 目录下，以确保 `仿真终端` 和 `文件解压缩` 的正常工作。
 
 ### 构建生产环境版本
 
@@ -173,9 +173,9 @@ git clone https://github.com/MCSManager/MCSManager.git
 
 ## 贡献代码
 
-如果你在使用过程中发现任何问题，可以 [提交 Issue](https://github.com/MCSManager/MCSManager/issues/new/choose) 或自行 Fork 修改后提交 Pull Request。
+如果你在使用过程中发现任何问题，可以 [提交 Issue](https://github.com/BloretCrew/Blora-Manager/issues/new/choose) 或自行 Fork 修改后提交 Pull Request。
 
-代码需要保持现有格式，不得格式化多余代码，具体可[参考这里](https://github.com/MCSManager/MCSManager/issues/544)。
+代码需要保持现有格式，不得格式化多余代码，具体可[参考这里](https://github.com/BloretCrew/Blora-Manager/issues/544)。
 
 <br />
 
@@ -190,7 +190,7 @@ git clone https://github.com/MCSManager/MCSManager.git
 
 欢迎发现的任何问题进行反馈，必当及时修复。
 
-若发现严重安全漏洞又不便公开发布，请发送邮件至: support@mcsmanager.com，安全问题修复后将在代码中附加漏洞发现者姓名。
+若发现严重安全漏洞又不便公开发布，请发送邮件至: support@Blora-Manager.com，安全问题修复后将在代码中附加漏洞发现者姓名。
 
 
 <br />
@@ -210,4 +210,4 @@ git clone https://github.com/MCSManager/MCSManager.git
 
 源代码遵循 [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) 协议。
 
-Copyright ©2025 MCSManager.
+Copyright ©2025 Blora-Manager.

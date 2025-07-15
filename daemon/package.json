@@ -1,17 +1,17 @@
 {
-  "name": "mcsmanager-daemon",
+  "name": "Blora-Manager-daemon",
   "version": "4.6.2",
-  "description": "Provides remote control capability for MCSManager to manage processes, scheduled tasks, I/O streams, and more",
+  "description": "Provides remote control capability for Blora-Manager to manage processes, scheduled tasks, I/O streams, and more",
   "scripts": {
     "dev": "npm run build && node --enable-source-maps production/app.js",
     "build": "webpack --config webpack.config.js"
   },
-  "homepage": "https://mcsmanager.com/",
+  "homepage": "https://Blora-Manager.com/",
   "author": "https://github.com/unitwk",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MCSManager/MCSManager"
+    "url": "https://github.com/BloretCrew/Blora-Manager"
   },
   "_moduleAliases": {
     "@languages": "../languages"
@@ -31,7 +31,7 @@
     "koa-body-patch": "^6.0.1",
     "koa-send": "^5.0.1",
     "log4js": "^6.4.0",
-    "mcsmanager-common": "1.1.0",
+    "Blora-Manager-common": "1.1.0",
     "node-schedule": "^2.0.0",
     "node-stream-zip": "^1.15.0",
     "os-utils": "0.0.14",

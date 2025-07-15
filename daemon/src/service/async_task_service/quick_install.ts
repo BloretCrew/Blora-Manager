@@ -18,7 +18,7 @@ export class QuickInstallTask extends AsyncTask {
 
   public instance: Instance;
   public readonly TMP_ZIP_NAME = "mcsm_install_package.zip";
-  public readonly ZIP_CONFIG_JSON = "mcsmanager-config.json";
+  public readonly ZIP_CONFIG_JSON = "Blora-Manager-config.json";
   public filePath = "";
   public extName = "";
 

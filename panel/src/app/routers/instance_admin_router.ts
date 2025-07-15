@@ -11,7 +11,7 @@ import { systemConfig } from "../setting";
 import { getUserUuid } from "../service/passport_service";
 import { isHaveInstanceByUuid, isTopPermissionByUuid } from "../service/permission_service";
 import { ROLE } from "../entity/user";
-import { removeTrail } from "mcsmanager-common";
+import { removeTrail } from "Blora-Manager-common";
 import userSystem from "../service/user_service";
 
 const router = new Router({ prefix: "/instance" });

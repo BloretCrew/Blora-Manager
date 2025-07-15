@@ -43,15 +43,15 @@ jobs:
 
       - name: Create archive
         run: |
-          mv dist_linux/ mcsmanager/
-          tar czf mcsmanager_linux_release.tar.gz mcsmanager/
-          rm -rf mcsmanager/
-          mv dist_windows/ mcsmanager/
-          zip -r mcsmanager_windows_release.zip mcsmanager/
+          mv dist_linux/ Blora-Manager/
+          tar czf Blora-Manager_linux_release.tar.gz Blora-Manager/
+          rm -rf Blora-Manager/
+          mv dist_windows/ Blora-Manager/
+          zip -r Blora-Manager_windows_release.zip Blora-Manager/
 
       - name: Upload assets to release
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            mcsmanager_windows_release.zip
-            mcsmanager_linux_release.tar.gz
+            Blora-Manager_windows_release.zip
+            Blora-Manager_linux_release.tar.gz

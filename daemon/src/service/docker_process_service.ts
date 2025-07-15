@@ -12,7 +12,7 @@ import { EventEmitter } from "stream";
 import { IInstanceProcess } from "../entity/instance/interface";
 import { AsyncTask } from "./async_task_service";
 import iconv from "iconv-lite";
-import { toText } from "mcsmanager-common";
+import { toText } from "Blora-Manager-common";
 import fs from "fs-extra";
 
 // Error exception at startup
@@ -182,7 +182,7 @@ export class SetupDockerContainer extends AsyncTask {
       Env: instance.config.docker?.env || [],
 
       Labels: {
-        "mcsmanager.instance.uuid": instance.instanceUuid
+        "Blora-Manager.instance.uuid": instance.instanceUuid
       },
 
       HostConfig: {

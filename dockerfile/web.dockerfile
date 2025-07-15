@@ -11,14 +11,14 @@ RUN chmod a+x ./install-dependents.sh &&\
 
 FROM node:lts-alpine
 
-WORKDIR /opt/mcsmanager/web
+WORKDIR /opt/Blora-Manager/web
 
-COPY --from=builder /src/production-code/web/ /opt/mcsmanager/web/
+COPY --from=builder /src/production-code/web/ /opt/Blora-Manager/web/
 
 RUN npm install --production
 
 EXPOSE 23333
 
-VOLUME ["/opt/mcsmanager/web/data", "/opt/mcsmanager/web/logs"]
+VOLUME ["/opt/Blora-Manager/web/data", "/opt/Blora-Manager/web/logs"]
 
 CMD [ "app.js", "--max-old-space-size=8192" ]

@@ -355,7 +355,7 @@ onMounted(async () => {
           <a-typography-text type="secondary">
             {{ t("TXT_CODE_9e9d3767") }}
             <br />
-            <a href="https://docs.mcsmanager.com/" target="_blank">
+            <a href="https://docs.Blora-Manager.com/" target="_blank">
               {{ t("TXT_CODE_b01f8383") }}
             </a>
           </a-typography-text>

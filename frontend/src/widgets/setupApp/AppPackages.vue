@@ -24,7 +24,7 @@ const searchForm = reactive({
 });
 
 const appList = computed(() => {
-  // For MCSManager v9
+  // For Blora-Manager v9
   const v9List: any[] = presetList.value as unknown as any[];
   if (v9List?.[0]?.info && v9List?.[0]?.mc) {
     const list = v9List.map((v) => {

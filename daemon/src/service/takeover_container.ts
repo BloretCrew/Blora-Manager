@@ -7,7 +7,7 @@ export default async function takeoverContainer() {
   const docker = new DefaultDocker();
   const containers = new Map<string, ContainerInfo>();
   (await docker.listContainers()).forEach((container) => {
-    const label = container.Labels["mcsmanager.instance.uuid"];
+    const label = container.Labels["Blora-Manager.instance.uuid"];
     if (label == null) {
       return;
     }

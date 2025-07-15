@@ -9,7 +9,7 @@ import { isHaveInstanceByUuid, isTopPermissionByUuid } from "../service/permissi
 import { systemConfig } from "../setting";
 import { $t } from "../i18n";
 import { ROLE } from "../entity/user";
-import { removeTrail } from "mcsmanager-common";
+import { removeTrail } from "Blora-Manager-common";
 
 const router = new Router({ prefix: "/files" });
 

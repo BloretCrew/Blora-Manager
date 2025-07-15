@@ -17,7 +17,7 @@ jobs:
         with:
           images: |
             name=ghcr.io/${{ github.repository }}-web
-            name=githubyumao/mcsmanager-web,enable=${{ github.repository == 'MCSManager/MCSManager' }}
+            name=githubyumao/Blora-Manager-web,enable=${{ github.repository == 'BloretCrew/Blora-Manager' }}
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
@@ -33,7 +33,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Login to DockerHub
-        if: ${{ github.repository == 'MCSManager/MCSManager' }}
+        if: ${{ github.repository == 'BloretCrew/Blora-Manager' }}
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
@@ -65,9 +65,9 @@ jobs:
         with:
           images: |
             name=ghcr.io/${{ github.repository }}-daemon,enable=${{ matrix.java_version == 21 }}
-            name=githubyumao/mcsmanager-daemon,enable=${{ github.repository == 'MCSManager/MCSManager' && matrix.java_version == 21 }}
+            name=githubyumao/Blora-Manager-daemon,enable=${{ github.repository == 'BloretCrew/Blora-Manager' && matrix.java_version == 21 }}
             name=ghcr.io/${{ github.repository }}-daemon-jdk${{ matrix.java_version }}
-            name=githubyumao/mcsmanager-daemon-jdk${{ matrix.java_version }},enable=${{ github.repository == 'MCSManager/MCSManager' }}
+            name=githubyumao/Blora-Manager-daemon-jdk${{ matrix.java_version }},enable=${{ github.repository == 'BloretCrew/Blora-Manager' }}
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
@@ -83,7 +83,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Login to DockerHub
-        if: ${{ github.repository == 'MCSManager/MCSManager' }}
+        if: ${{ github.repository == 'BloretCrew/Blora-Manager' }}
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}

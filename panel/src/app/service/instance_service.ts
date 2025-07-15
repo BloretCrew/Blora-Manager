@@ -3,7 +3,7 @@ import RemoteServiceSubsystem from "../service/remote_service";
 import RemoteRequest from "../service/remote_command";
 import { t } from "i18next";
 import { systemConfig } from "../setting";
-import { toText } from "mcsmanager-common";
+import { toText } from "Blora-Manager-common";
 
 export enum INSTANCE_STATUS {
   BUSY = -1,

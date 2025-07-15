@@ -46,12 +46,12 @@ export default class SystemConfig {
   language = "en_us";
 
   // Quick installation address
-  presetPackAddr = "https://script.mcsmanager.com/templates.json";
+  presetPackAddr = "https://script.Blora-Manager.com/templates.json";
 
   // Redis address (Experimental Features)
   redisUrl = "";
 
-  // After it is enabled, you can connect to the redeem.mcsmanager.com platform
+  // After it is enabled, you can connect to the redeem.Blora-Manager.com platform
   // to sell instances based on redeem
   // (this feature may not be available in some countries)
   businessMode = false;

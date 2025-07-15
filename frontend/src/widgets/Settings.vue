@@ -41,7 +41,7 @@ interface MySettings extends Settings {
   bgUrl?: string;
 }
 
-const ApacheLicense = `Copyright ${new Date().getFullYear()} MCSManager Dev
+const ApacheLicense = `Copyright ${new Date().getFullYear()} Blora-Manager Dev
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -105,8 +105,8 @@ const menus = arrayFilter([
     key: "sponsor",
     icon: MoneyCollectOutlined,
     click: () => {
-      let url = "https://www.patreon.com/mcsmanager";
-      if (isCN()) url = "https://afdian.com/a/mcsmanager";
+      let url = "https://www.patreon.com/Blora-Manager";
+      if (isCN()) url = "https://afdian.com/a/Blora-Manager";
       window.open(url, "_blank");
     }
   }
@@ -130,7 +130,7 @@ const aboutLinks = arrayFilter([
   {
     title: "GitHub",
     icon: GithubOutlined,
-    url: "https://github.com/MCSManager/MCSManager"
+    url: "https://github.com/BloretCrew/Blora-Manager"
   },
   {
     title: "Discord",
@@ -143,17 +143,17 @@ const contacts = arrayFilter([
   {
     title: t("TXT_CODE_41dd4d19"),
     icon: BankOutlined,
-    url: "https://mcsmanager.com/"
+    url: "https://Blora-Manager.com/"
   },
   {
     title: t("TXT_CODE_74c3d3e5"),
     icon: BookOutlined,
-    url: "https://docs.mcsmanager.com/"
+    url: "https://docs.Blora-Manager.com/"
   },
   {
     title: t("TXT_CODE_26407d1f"),
     icon: BugOutlined,
-    url: "https://github.com/MCSManager/MCSManager/issues"
+    url: "https://github.com/BloretCrew/Blora-Manager/issues"
   }
 ]);
 
@@ -194,7 +194,7 @@ const startDesignUI = async () => {
 };
 
 const gotoBusinessCenter = () => {
-  window.open("https://redeem.mcsmanager.com/", "_blank");
+  window.open("https://redeem.Blora-Manager.com/", "_blank");
 };
 
 onMounted(async () => {

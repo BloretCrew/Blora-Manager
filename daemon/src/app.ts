@@ -16,7 +16,7 @@ import InstanceSubsystem from "./service/system_instance";
 import "./service/async_task_service";
 import "./service/async_task_service/quick_install";
 import "./service/system_visual_data";
-import { removeTrail } from "mcsmanager-common";
+import { removeTrail } from "Blora-Manager-common";
 
 initVersionManager();
 const VERSION = getVersion();
@@ -35,7 +35,7 @@ _  /_/ // /_/ //  __/  / / / / / /_/ /  / / /
 /_____/ \\__,_/ \\___//_/ /_/ /_/\\____//_/ /_/                                 
                                                                              
 
- + Copyright ${new Date().getFullYear()} MCSManager Dev <https://github.com/MCSManager>
+ + Copyright ${new Date().getFullYear()} Blora-Manager Dev <https://github.com/Blora-Manager>
  + Version ${VERSION}
 `);
 

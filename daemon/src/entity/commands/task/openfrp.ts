@@ -5,7 +5,7 @@ import { ILifeCycleTask } from "../../instance/life_cycle";
 import Instance from "../../instance/instance";
 import logger from "../../../service/log";
 import { $t } from "../../../i18n";
-import { ProcessWrapper } from "mcsmanager-common";
+import { ProcessWrapper } from "Blora-Manager-common";
 import { FRPC_PATH } from "../../../const";
 import { downloadFileToLocalFile } from "../../../service/download";
 export class OpenFrp {
@@ -47,7 +47,7 @@ export default class OpenFrpTask implements ILifeCycleTask {
   public static readonly FRP_EXE_PATH = path.normalize(
     path.join(process.cwd(), "lib", OpenFrpTask.FRP_EXE_NAME)
   );
-  public static readonly FRP_DOWNLOAD_ADDR = "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/";
+  public static readonly FRP_DOWNLOAD_ADDR = "https://Blora-Manager.oss-cn-guangzhou.aliyuncs.com/";
 
   async start(instance: Instance) {
     const { openFrpToken, openFrpTunnelId } = instance.config?.extraServiceConfig;

@@ -1,20 +1,20 @@
 <div align="center">
-  <a href="https://mcsmanager.com/" target="_blank">
-    <img src="https://public-link.oss-cn-shenzhen.aliyuncs.com/mcsm_picture/logo.png" alt="MCSManagerLogo.png" width="510px" />    
+  <a href="https://Blora-Manager.com/" target="_blank">
+    <img src="https://public-link.oss-cn-shenzhen.aliyuncs.com/mcsm_picture/logo.png" alt="Blora-ManagerLogo.png" width="510px" />    
   </a>
 
   <br />
   
-  <h1 id="mcsmanager">
-    <a href="https://mcsmanager.com/" target="_blank">MCSManager Panel</a>
+  <h1 id="Blora-Manager">
+    <a href="https://Blora-Manager.com/" target="_blank">Blora-Manager Panel</a>
   </h1>
 
-[![--](https://img.shields.io/badge/Support-Windows/Linux-green.svg)](https://github.com/MCSManager)
+[![--](https://img.shields.io/badge/Support-Windows/Linux-green.svg)](https://github.com/Blora-Manager)
 [![Status](https://img.shields.io/badge/npm-v8.9.14-blue.svg)](https://www.npmjs.com/)
 [![Status](https://img.shields.io/badge/node-v16.20.2-blue.svg)](https://nodejs.org/en/download/)
-[![Status](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://github.com/MCSManager)
+[![Status](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://github.com/Blora-Manager)
 
-[Official Website](http://mcsmanager.com/) | [Docs](https://docs.mcsmanager.com/) | [Discord](https://discord.gg/BNpYMVX7Cd)
+[Official Website](http://Blora-Manager.com/) | [Docs](https://docs.Blora-Manager.com/) | [Discord](https://discord.gg/BNpYMVX7Cd)
 
 [简体中文](README_ZH.md) | [繁體中文](README_TW.md) | [Deutsch](README_DE.md) | [Português BR](README_PTBR.md) |
 [日本語](README_JP.md) | [Spanish](README_ES.md) | [Thai](README_TH.md)
@@ -23,13 +23,13 @@
 
 <br />
 
-## What is MCSManager?
+## What is Blora-Manager?
 
-**MCSManager Panel** (MCSM) is a **modern, secure, and distributed control panel** designed for managing Minecraft and Steam game servers.
+**Blora-Manager Panel** (MCSM) is a **modern, secure, and distributed control panel** designed for managing Minecraft and Steam game servers.
 
-MCSManager has already gained a certain level of popularity within the community, specifically because of Minecraft. MCSManager excels in offering a centralized management solution for multiple server instances and provides a secure and reliable multi-user permission system. In addition, we are committed to support server administrators, not only for Minecraft but also for Terraria and various Steam games. Our goal is to foster a thriving and supportive community for game server management.
+Blora-Manager has already gained a certain level of popularity within the community, specifically because of Minecraft. Blora-Manager excels in offering a centralized management solution for multiple server instances and provides a secure and reliable multi-user permission system. In addition, we are committed to support server administrators, not only for Minecraft but also for Terraria and various Steam games. Our goal is to foster a thriving and supportive community for game server management.
 
-MCSManager **supports English, French, German, Italian, Japanese, Portuguese, Simplified Chinese, and Traditional Chinese**, with plans to add support for more languages in the future!
+Blora-Manager **supports English, French, German, Italian, Japanese, Portuguese, Simplified Chinese, and Traditional Chinese**, with plans to add support for more languages in the future!
 
 **Terminal**
 
@@ -50,7 +50,7 @@ MCSManager **supports English, French, German, Italian, Japanese, Portuguese, Si
 3. Customizable UI, create your own layout
 4. Supports all images on `Docker Hub`, supports multiple users and supports commercial services!
 5. Manage multiple servers with a single web interface
-6. The technology stack is simple, and you only need to be good at Typescript to complete the entire MCSManager development.
+6. The technology stack is simple, and you only need to be good at Typescript to complete the entire Blora-Manager development.
 7. And More!
 
 <br />
@@ -69,7 +69,7 @@ Requires [Node.js 16.20.2](https://nodejs.org/en) or above.
 
 For Windows, we provide packaged executable files:
 
-Go to: [https://mcsmanager.com/](https://mcsmanager.com/)
+Go to: [https://Blora-Manager.com/](https://Blora-Manager.com/)
 
 <br />
 
@@ -80,7 +80,7 @@ Go to: [https://mcsmanager.com/](https://mcsmanager.com/)
 > The script needs to register system services and requires root permissions because of that.
 
 ```bash
-sudo su -c "wget -qO- https://script.mcsmanager.com/setup.sh | bash"
+sudo su -c "wget -qO- https://script.Blora-Manager.com/setup.sh | bash"
 ```
 
 **Usage**
@@ -91,7 +91,7 @@ systemctl stop mcsm-{web,daemon}
 ```
 
 - Only supports Ubuntu/Centos/Debian/Archlinux.
-- Installation directory: `/opt/mcsmanager/`.
+- Installation directory: `/opt/Blora-Manager/`.
 
 <br />
 
@@ -113,12 +113,12 @@ ln -s /opt/node-v20.11.0-linux-x64/bin/node /usr/bin/node
 ln -s /opt/node-v20.11.0-linux-x64/bin/npm /usr/bin/npm
 
 # Prepare MCSM's installation directory
-mkdir /opt/mcsmanager/
-cd /opt/mcsmanager/
+mkdir /opt/Blora-Manager/
+cd /opt/Blora-Manager/
 
-# Download MCSManager
-wget https://github.com/MCSManager/MCSManager/releases/latest/download/mcsmanager_linux_release.tar.gz
-tar -zxf mcsmanager_linux_release.tar.gz
+# Download Blora-Manager
+wget https://github.com/BloretCrew/Blora-Manager/releases/latest/download/Blora-Manager_linux_release.tar.gz
+tar -zxf Blora-Manager_linux_release.tar.gz
 
 # Install dependencies
 ./install.sh
@@ -135,7 +135,7 @@ tar -zxf mcsmanager_linux_release.tar.gz
 # In general, the web interface will automatically scan and add the local daemon.
 ```
 
-This installation approach does not automatically set up MCSManager as a system service. Therefore, it is necessary to use `screen` for management. For those interested in managing MCSManager through a system service, please refer to our wiki/documentation.
+This installation approach does not automatically set up Blora-Manager as a system service. Therefore, it is necessary to use `screen` for management. For those interested in managing Blora-Manager through a system service, please refer to our wiki/documentation.
 
 <br />
 
@@ -145,7 +145,7 @@ This section is specifically designed for developers. General users may disregar
 
 ### Plugins
 
-We use "VS Code" to develop MCSManager. You may need to install these plugins:
+We use "VS Code" to develop Blora-Manager. You may need to install these plugins:
 
 - i18n display support (I18n Ally)
 - Code formatter (Prettier)
@@ -155,7 +155,7 @@ We use "VS Code" to develop MCSManager. You may need to install these plugins:
 ### MacOS
 
 ```bash
-git clone https://github.com/MCSManager/MCSManager.git
+git clone https://github.com/BloretCrew/Blora-Manager.git
 ./install-dependents.sh
 ./npm-dev-macos.sh
 ```
@@ -163,14 +163,14 @@ git clone https://github.com/MCSManager/MCSManager.git
 ### Windows
 
 ```bash
-git clone https://github.com/MCSManager/MCSManager.git
+git clone https://github.com/BloretCrew/Blora-Manager.git
 ./install-dependents.bat
 ./npm-dev-windows.bat
 ```
 
 ### Dependency Files
 
-You'll need to go to the [PTY](https://github.com/MCSManager/PTY) and [Zip-Tools](https://github.com/MCSManager/Zip-Tools) projects to download the corresponding binary files and place them in the `daemon/lib` directory to ensure the proper functioning of the `Emulation Terminal` and `File Decompression`.
+You'll need to go to the [PTY](https://github.com/Blora-Manager/PTY) and [Zip-Tools](https://github.com/Blora-Manager/Zip-Tools) projects to download the corresponding binary files and place them in the `daemon/lib` directory to ensure the proper functioning of the `Emulation Terminal` and `File Decompression`.
 
 ### Build Production Version
 
@@ -185,9 +185,9 @@ Output Directory: "production-code"
 
 ## Code Contributing
 
-If you experience any problems while using MCSManager, you are welcome to [submit an Issue](https://github.com/MCSManager/MCSManager/issues/new/choose). Alternatively, you can fork the project and contribute directly by submitting a Pull Request.
+If you experience any problems while using Blora-Manager, you are welcome to [submit an Issue](https://github.com/BloretCrew/Blora-Manager/issues/new/choose). Alternatively, you can fork the project and contribute directly by submitting a Pull Request.
 
-Please ensure that any submitted code adheres to our existing coding style. For more details, refer to the guidelines provided in [this issue](https://github.com/MCSManager/MCSManager/issues/544).
+Please ensure that any submitted code adheres to our existing coding style. For more details, refer to the guidelines provided in [this issue](https://github.com/BloretCrew/Blora-Manager/issues/544).
 
 <br />
 
@@ -200,7 +200,7 @@ Please ensure that any submitted code adheres to our existing coding style. For 
 
 ## BUG Reporting
 
-**Open Issue:** [Click here](https://github.com/MCSManager/MCSManager/issues/new/choose)
+**Open Issue:** [Click here](https://github.com/BloretCrew/Blora-Manager/issues/new/choose)
 
 **Security Vulnerability Report:** [SECURITY.md](SECURITY.md)
 
@@ -219,6 +219,6 @@ Thanks to these contributors for providing a substantial amount of translation:
 
 ## License
 
-The source code of MCSManager is licensed under the [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) License.
+The source code of Blora-Manager is licensed under the [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) License.
 
-Copyright ©2025 MCSManager.
+Copyright ©2025 Blora-Manager.

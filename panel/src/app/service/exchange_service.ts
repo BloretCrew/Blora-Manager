@@ -3,13 +3,13 @@ import RemoteRequest from "../service/remote_command";
 import user_service from "../service/user_service";
 import { customAlphabet } from "nanoid";
 import { t } from "i18next";
-import { toNumber, toText } from "mcsmanager-common";
+import { toNumber, toText } from "Blora-Manager-common";
 import { IAdvancedInstanceInfo, getInstancesByUuid } from "./instance_service";
 
-// A commercial platform for selling instances released by the MCSManager Dev Team.
+// A commercial platform for selling instances released by the Blora-Manager Dev Team.
 // Currently, it only supports some countries and regions.
-// If you do not turn on "Commercial Mode", MCSManager will not send any data.
-export const REDEEM_PLATFORM_ADDR = "https://redeem.mcsmanager.com";
+// If you do not turn on "Commercial Mode", Blora-Manager will not send any data.
+export const REDEEM_PLATFORM_ADDR = "https://redeem.Blora-Manager.com";
 
 // ------- Protocol Define -------
 export interface INodeStatusProtocol {

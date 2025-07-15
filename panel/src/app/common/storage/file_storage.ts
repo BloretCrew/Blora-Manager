@@ -1,5 +1,5 @@
 import { IStorage } from "./storage_interface";
-import { StorageSubsystem } from "mcsmanager-common";
+import { StorageSubsystem } from "Blora-Manager-common";
 
 const storage = new StorageSubsystem();
 

@@ -1,7 +1,7 @@
 import { v4 } from "uuid";
 import { $t as t } from "../i18n";
 import storage from "../common/system_storage";
-import { GlobalVariable } from "mcsmanager-common";
+import { GlobalVariable } from "Blora-Manager-common";
 import path from "path";
 import fs from "fs-extra";
 

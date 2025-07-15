@@ -3,7 +3,7 @@ import { authenticator } from "otplib";
 import QRCode from "qrcode";
 import userSystem from "./user_service";
 import { timeUuid } from "./password";
-import { GlobalVariable, toText } from "mcsmanager-common";
+import { GlobalVariable, toText } from "Blora-Manager-common";
 import { systemConfig } from "../setting";
 import { logger } from "./log";
 import { User } from "../entity/user";
@@ -79,7 +79,7 @@ export async function bind2FA(ctx: Koa.ParameterizedContext) {
   try {
     const secret = authenticator.generateSecret();
     const qrCode = await QRCode.toDataURL(
-      authenticator.keyuri(userName, "MCSManager Panel", secret)
+      authenticator.keyuri(userName, "Blora-Manager Panel", secret)
     );
     userSystem.edit(user.uuid, { secret, open2FA: false });
     return qrCode;

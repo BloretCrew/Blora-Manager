@@ -1,6 +1,6 @@
 import { $t } from "../i18n";
 import * as fs from "fs-extra";
-import { GlobalVariable } from "mcsmanager-common";
+import { GlobalVariable } from "Blora-Manager-common";
 import logger from "./log";
 
 const PACKAGE_JSON = "package.json";

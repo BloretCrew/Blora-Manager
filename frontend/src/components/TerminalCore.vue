@@ -197,7 +197,7 @@ onMounted(async () => {
               <strong>{{ $t("TXT_CODE_d4c8fb3b") }}</strong>
             </span>
             <a
-              href="https://docs.mcsmanager.com/ops/proxy_https.html"
+              href="https://docs.Blora-Manager.com/ops/proxy_https.html"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -205,7 +205,7 @@ onMounted(async () => {
             </a>
             <span>|</span>
             <a
-              href="https://docs.mcsmanager.com/ops/mcsm_network.html"
+              href="https://docs.Blora-Manager.com/ops/mcsm_network.html"
               target="_blank"
               rel="noopener noreferrer"
             >
